@@ -1,0 +1,120 @@
+body {
+	font-family:"Century Gothic";
+	margin-left: 100px;
+	margin-right: 100px;
+}
+.main-header {
+	text-align: center;
+}
+
+.navul {
+	list-style-type:none;
+	margin: 0;
+	padding:0;
+	overflow: hidden;
+	background-color:#FF6666;
+	position:fixed;
+	top:0;
+	left:0;
+	width: 100%;
+} 
+
+
+.topindex {
+	width:1000px;
+	margin-left:auto;
+	margin-right:auto;
+	float:none;
+
+}
+.navulindex {
+	list-style-type:none;
+	padding:0;
+	overflow: hidden;
+	background-color:#FF6666;
+	position:fixed;
+	margin-top:0;
+	top:0;
+	width:1000px;
+} 
+
+.navli {
+	float:left;
+}
+
+.navli a {
+	display:block;
+	color:black;
+	padding: 23px 23px;
+	text-align:center;
+	text-decoration: none;
+	font-size:20px;
+}
+
+.navli a:hover:not(.active) {
+	background-color:#FF9999;
+}
+
+.active {
+	background-color: #FF9966;
+}
+
+.part {
+	font-weight: bold
+}
+
+.photo {
+	width:254px;
+	height:381px;
+	margin-right:40px;
+	float:left; 
+}
+
+.text {
+	height:381px;
+	width:500px;
+	float:left;
+}
+
+.person {
+	overflow:hidden;
+	margin-bottom:20px;
+
+	width:800px;
+}
+
+.maps {
+	text-align:left;
+	clear:both;
+	overflow:visible;
+	margin-bottom: 20px;
+}
+
+.directionstext {
+	display:block;
+	overflow:auto;
+	min-width:300px;
+}
+
+.hr {
+	clear:left;
+}
+
+
+footer {
+	text-align:center;
+	background-color:#FF6666;
+	padding: 18px 18px;
+	bottom:0;
+	margin-left:auto;
+	margin-right:auto;
+	float:none;
+}	
+
+.center {
+	text-align: center;
+}
+
+.field-item {
+	 border-style:none;
+}
